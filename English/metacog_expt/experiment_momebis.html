@@ -426,8 +426,9 @@ var check_consent = function(elem) {
 		
 //PUSH TIMELINE FOR THE ENTIRE EXPERIMENT	
 		var tasks = [];
-
+		var qns = qn();
 		tasks.push(fullscreen);
+		tasks.push(qns);
 		tasks.push(welcome_block);
 		tasks.push(subdetails);
 		tasks.push(subdetails2);
