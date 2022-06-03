@@ -341,7 +341,6 @@ for (var y = 0; y < numBlocks; y++)
 	type:"text",
 	text: '<p class="instructions">The task proper is divided into 3 blocks of 36 trials, where you can pause for a break before every block.</p>' +
 	'<p class="instructions">There are no time limits on your responses to the dots and on your confidence ratings.</p>' +
-	'<p class="instructions">You can receive up to 2 pounds bonus if your performance is satisfactory.</p>' +
 	'<p class="instructions">As a reminder: <br>If the box on the <strong>left</strong> had more dots, press <strong>W</strong>.<br> If the box on the <strong>right</strong> had more dots, press <strong>E</strong>.</p>' +
 	'<p class="instructions"><br>Press spacebar to begin!</p>', 
 	data: {label: 'intruct', trialType: 'instructions'},
